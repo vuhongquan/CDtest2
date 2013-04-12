@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>xedapdien</key>
+	<array>
+		<dict/>
+		<dict>
+			<key>kieuxe</key>
+			<string>Dong xe ASF</string>
+			<key>anh</key>
+			<string>anh3.tiff</string>
+			<key>sotien</key>
+			<integer>9050000</integer>
+			<key>thongso</key>
+			<dict>
+				<key>mau</key>
+				<string>Den,Do,Hong,Trang</string>
+				<key>khung</key>
+				<string>Thep</string>
+				<key>son</key>
+				<string>Tinh dien</string>
+				<key>decal</key>
+				<string>Son</string>
+				<key>phuoc xe</key>
+				<string>Thep co he thong giam xoc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>kieuxe</key>
+			<string>Dong xe ASH</string>
+			<key>anh</key>
+			<string>anh3.tiff</string>
+			<key>sotien</key>
+			<integer>8500000</integer>
+			<key>thongso</key>
+			<dict>
+				<key>mau</key>
+				<string>Den,Do,Hong,Trang</string>
+				<key>khung</key>
+				<string>Thep</string>
+				<key>son</key>
+				<string>Tinh dien</string>
+				<key>decal</key>
+				<string>Son</string>
+				<key>phuoc xe</key>
+				<string>Thep co he thong giam xoc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>kieuxe</key>
+			<string>Dong xe ASG</string>
+			<key>anh</key>
+			<string>anh5.tiff</string>
+			<key>sotien</key>
+			<integer>9800000</integer>
+			<key>thongso</key>
+			<dict>
+				<key>mau</key>
+				<string>Den,Do,Hong,Trang</string>
+				<key>khung</key>
+				<string>Thep</string>
+				<key>son</key>
+				<string>Tinh dien</string>
+				<key>decal</key>
+				<string>Son</string>
+				<key>phuoc xe</key>
+				<string>Thep co he thong giam xoc</string>
+			</dict>
+		</dict>
+	</array>
+	<key>xethoitrang</key>
+	<array>
+		<dict>
+			<key>kieuxe</key>
+			<string>Dong xe ASF</string>
+			<key>anh</key>
+			<string>anh6.tiff</string>
+			<key>sotien</key>
+			<integer>8500000</integer>
+			<key>thongso</key>
+			<dict>
+				<key>mau</key>
+				<string>Den,Do,Nau dong</string>
+				<key>khung</key>
+				<string>Thep</string>
+				<key>decal</key>
+				<string>Son</string>
+				<key>phuoc xe</key>
+				<string>Thep co he thong giam xoc</string>
+			</dict>
+		</dict>
+	</array>
+	<key>xethethao</key>
+	<array>
+		<dict>
+			<key>kieuxe</key>
+			<string>Dong xe ASF</string>
+			<key>anh</key>
+			<string>anh6.tiff</string>
+			<key>sotien</key>
+			<integer>8500000</integer>
+			<key>thongso</key>
+			<dict>
+				<key>mau</key>
+				<string>Den,Do,Nau dong</string>
+				<key>khung</key>
+				<string>Thep</string>
+				<key>decal</key>
+				<string>Son</string>
+				<key>phuoc xe</key>
+				<string>Thep co he thong giam xoc</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
