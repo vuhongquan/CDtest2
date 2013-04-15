@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface SuportObject : UIViewController<UITableViewDelegate,UITableViewDataSource>
-
+@property (nonatomic,strong) NSString * kieumu;
 @end

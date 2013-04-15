@@ -9,12 +9,20 @@
 #import "ViewController.h"
 #import "SuportObject.h"
 #import "TypeObject.h"
+#import "Object.h"
+#import "BicycleObject.h"
+#import "InformationBicycle.h"
+#import "InformationVC.h"
 @interface ViewController ()
 {
     UIButton * _buttonA;
     UIButton * _buttonB;
     UITextField *_text;
     UIButton * _buttonC;
+    BicycleObject  * _bicycleObject ;
+    SuportObject *_suportObject;
+    InformationBicycle *_informationBicycle;
+    InformationVC *_infomationVC;
 }
 @end
 
@@ -22,6 +30,10 @@
 
 - (void)viewDidLoad
 {
+     _suportObject = [[SuportObject alloc]init];
+    _informationBicycle = [[InformationBicycle alloc]init];
+    _infomationVC = [[InformationVC alloc]init];
+    _bicycleObject = [[BicycleObject alloc]init];
      UIImageView* ObjectImage = [[UIImageView alloc] initWithFrame:CGRectMake(35, 250, 250,150)];
     ObjectImage.animationImages =[NSArray arrayWithObjects:
                                    [UIImage imageNamed:@"anh2.tiff"],
@@ -71,6 +83,7 @@
     _buttonC = [UIButton new];
     _buttonC.frame = CGRectMake(0,0,20,20);
     _buttonC.backgroundColor = [UIColor clearColor];
+    [_buttonC addTarget:self action:@selector(search:) forControlEvents:UIControlEventTouchUpInside];
     [_buttonC setImage:[UIImage imageNamed:@"find.png"] forState:UIControlStateNormal];
     
     _text= [[UITextField alloc]initWithFrame:CGRectMake(0,0,150,25)];
@@ -82,6 +95,31 @@
     _text.delegate = self;
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+-(void) search:(id)sender{
+    _suportObject.kieumu = self.object.kieuMu;
+    if ([_text.text isEqualToString: @"Xe dap dien"] ) {
+        _bicycleObject.groupid = @"1";
+        [self.navigationController pushViewController:_bicycleObject animated:YES];
+    }
+    if ([_text.text isEqualToString:@"Xe the thao"]){
+        _bicycleObject.groupid = @"3";
+        [self.navigationController pushViewController:_bicycleObject animated:YES];
+    }
+    if ([_text.text isEqualToString:@"Xe thoi trang"]){
+        _bicycleObject.groupid = @"2";
+        [self.navigationController pushViewController:_bicycleObject animated:YES];
+    }
+    if ([_text.text isEqualToString:@"Mu bao hiem"]) {
+        [self.navigationController pushViewController:_suportObject animated:YES];
+   }
+    if ([_text.text isEqualToString:self.object.kieuMu]) {
+         [self.navigationController pushViewController:_suportObject animated:YES];
+    }
+    if ([_text.text isEqualToString:self.object.kieuXe]) {
+        
+        [self.navigationController pushViewController:_infomationVC animated:YES];
+    }
 }
 
 - (void)didReceiveMemoryWarning

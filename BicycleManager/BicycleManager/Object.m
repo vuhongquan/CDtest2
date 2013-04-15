@@ -9,5 +9,5 @@
 #import "Object.h"
 
 @implementation  Object
-
+@synthesize groupid,kieuXe,kieuMu,anh,soTien,thongSo,loaixe;
 @end

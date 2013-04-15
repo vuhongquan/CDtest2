@@ -9,8 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @interface Object : NSObject
+@property (strong,nonatomic) NSString *loaixe;
+@property (strong,nonatomic) NSString *groupid;
+@property (strong,nonatomic) NSString *kieuXe;
 @property (strong,nonatomic) NSString *kieuMu;
-@property (strong,nonatomic) NSString *thongSo;
-@property (strong,nonatomic) UIImage *anh;
+@property (strong,nonatomic) NSDictionary *thongSo;
+@property (strong,nonatomic) NSString *anh;
 @property (assign,nonatomic) NSInteger soTien;
 @end

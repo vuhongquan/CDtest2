@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Object.h"
 @interface ViewController : UIViewController<UITextFieldDelegate>
-
+@property (nonatomic) Object * object;
+@property (nonatomic,strong) NSString * loaixe;
 @end

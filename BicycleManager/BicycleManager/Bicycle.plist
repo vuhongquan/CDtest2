@@ -1,117 +1,231 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>xedapdien</key>
-	<array>
-		<dict/>
+<array>
+	<dict>
+		<key>groupid</key>
+		<string>1</string>
+		<key>loaixe</key>
+		<string>Xe Dap Dien</string>
+		<key>kieuxe</key>
+		<string>Dong xe ASF</string>
+		<key>anh</key>
+		<string>anh3.tiff</string>
+		<key>sotien</key>
+		<integer>9050000</integer>
+		<key>thongso</key>
 		<dict>
-			<key>kieuxe</key>
-			<string>Dong xe ASF</string>
-			<key>anh</key>
-			<string>anh3.tiff</string>
-			<key>sotien</key>
-			<integer>9050000</integer>
-			<key>thongso</key>
-			<dict>
-				<key>mau</key>
-				<string>Den,Do,Hong,Trang</string>
-				<key>khung</key>
-				<string>Thep</string>
-				<key>son</key>
-				<string>Tinh dien</string>
-				<key>decal</key>
-				<string>Son</string>
-				<key>phuoc xe</key>
-				<string>Thep co he thong giam xoc</string>
-			</dict>
+			<key>mau</key>
+			<string>Den,Do,Hong,Trang</string>
+			<key>khung</key>
+			<string>Thep</string>
+			<key>son</key>
+			<string>Tinh dien</string>
+			<key>decal</key>
+			<string>Son</string>
+			<key>phuoc xe</key>
+			<string>Thep co he thong giam xoc</string>
 		</dict>
+	</dict>
+	<dict>
+		<key>groupid</key>
+		<string>1</string>
+		<key>loaixe</key>
+		<string>Xe Dap Dien</string>
+		<key>kieuxe</key>
+		<string>Dong xe ASH</string>
+		<key>anh</key>
+		<string>anh6.tiff</string>
+		<key>sotien</key>
+		<integer>8500000</integer>
+		<key>thongso</key>
 		<dict>
-			<key>kieuxe</key>
-			<string>Dong xe ASH</string>
-			<key>anh</key>
-			<string>anh3.tiff</string>
-			<key>sotien</key>
-			<integer>8500000</integer>
-			<key>thongso</key>
-			<dict>
-				<key>mau</key>
-				<string>Den,Do,Hong,Trang</string>
-				<key>khung</key>
-				<string>Thep</string>
-				<key>son</key>
-				<string>Tinh dien</string>
-				<key>decal</key>
-				<string>Son</string>
-				<key>phuoc xe</key>
-				<string>Thep co he thong giam xoc</string>
-			</dict>
+			<key>mau</key>
+			<string>Den,Do,Hong,Trang</string>
+			<key>khung</key>
+			<string>Thep</string>
+			<key>son</key>
+			<string>Tinh dien</string>
+			<key>decal</key>
+			<string>Son</string>
+			<key>phuoc xe</key>
+			<string>Thep co he thong giam xoc</string>
 		</dict>
+	</dict>
+	<dict>
+		<key>groupid</key>
+		<string>1</string>
+		<key>loaixe</key>
+		<string>Xe Dap Dien</string>
+		<key>kieuxe</key>
+		<string>Dong xe ASG</string>
+		<key>anh</key>
+		<string>anh5.tiff</string>
+		<key>sotien</key>
+		<integer>9800000</integer>
+		<key>thongso</key>
 		<dict>
-			<key>kieuxe</key>
-			<string>Dong xe ASG</string>
-			<key>anh</key>
-			<string>anh5.tiff</string>
-			<key>sotien</key>
-			<integer>9800000</integer>
-			<key>thongso</key>
-			<dict>
-				<key>mau</key>
-				<string>Den,Do,Hong,Trang</string>
-				<key>khung</key>
-				<string>Thep</string>
-				<key>son</key>
-				<string>Tinh dien</string>
-				<key>decal</key>
-				<string>Son</string>
-				<key>phuoc xe</key>
-				<string>Thep co he thong giam xoc</string>
-			</dict>
+			<key>mau</key>
+			<string>Den,Do,Hong,Trang</string>
+			<key>khung</key>
+			<string>Thep</string>
+			<key>son</key>
+			<string>Tinh dien</string>
+			<key>decal</key>
+			<string>Son</string>
+			<key>phuoc xe</key>
+			<string>Thep co he thong giam xoc</string>
 		</dict>
-	</array>
-	<key>xethoitrang</key>
-	<array>
+	</dict>
+	<dict>
+		<key>groupid</key>
+		<string>2</string>
+		<key>loaixe</key>
+		<string>Xe The Thao</string>
+		<key>kieuxe</key>
+		<string>JARVIS</string>
+		<key>anh</key>
+		<string>anh11.tiff</string>
+		<key>sotien</key>
+		<integer>2500000</integer>
+		<key>thongso</key>
 		<dict>
-			<key>kieuxe</key>
-			<string>Dong xe ASF</string>
-			<key>anh</key>
-			<string>anh6.tiff</string>
-			<key>sotien</key>
-			<integer>8500000</integer>
-			<key>thongso</key>
-			<dict>
-				<key>mau</key>
-				<string>Den,Do,Nau dong</string>
-				<key>khung</key>
-				<string>Thep</string>
-				<key>decal</key>
-				<string>Son</string>
-				<key>phuoc xe</key>
-				<string>Thep co he thong giam xoc</string>
-			</dict>
+			<key>mau</key>
+			<string>Bac,Xanh duong,Xanh luc</string>
+			<key>khung</key>
+			<string>Thep carbon cong nghe Jett</string>
+			<key>son</key>
+			<string>Tinh dien</string>
+			<key>decal</key>
+			<string>Keo dan</string>
+			<key>phuoc xe</key>
+			<string>Thep carbon cong nghe Jett</string>
 		</dict>
-	</array>
-	<key>xethethao</key>
-	<array>
+	</dict>
+	<dict>
+		<key>groupid</key>
+		<string>2</string>
+		<key>loaixe</key>
+		<string>Xe The Thao</string>
+		<key>kieuxe</key>
+		<string>COLORADO AP</string>
+		<key>anh</key>
+		<string>anh2.tiff</string>
+		<key>sotien</key>
+		<integer>2500000</integer>
+		<key>thongso</key>
 		<dict>
-			<key>kieuxe</key>
-			<string>Dong xe ASF</string>
-			<key>anh</key>
-			<string>anh6.tiff</string>
-			<key>sotien</key>
-			<integer>8500000</integer>
-			<key>thongso</key>
-			<dict>
-				<key>mau</key>
-				<string>Den,Do,Nau dong</string>
-				<key>khung</key>
-				<string>Thep</string>
-				<key>decal</key>
-				<string>Son</string>
-				<key>phuoc xe</key>
-				<string>Thep co he thong giam xoc</string>
-			</dict>
+			<key>mau</key>
+			<string>Kem-Nau,Cam-Vang,Trang</string>
+			<key>khung</key>
+			<string>Thep carbon cong nghe jett</string>
+			<key>son</key>
+			<string>Tinh dien</string>
+			<key>decal</key>
+			<string>Son</string>
+			<key>phuoc xe</key>
+			<string>Thep carbon cong nghe jett</string>
 		</dict>
-	</array>
-</dict>
+	</dict>
+	<dict>
+		<key>groupid</key>
+		<string>2</string>
+		<key>loaixe</key>
+		<string>Xe The Thao</string>
+		<key>kieuxe</key>
+		<string>COLORADO BETA</string>
+		<key>anh</key>
+		<string>anh8.tiff</string>
+		<key>sotien</key>
+		<integer>2300000</integer>
+		<key>thongso</key>
+		<dict>
+			<key>mau</key>
+			<string>Den,Xanh duong</string>
+			<key>khung</key>
+			<string>Thep carbon cong nghe Jett</string>
+			<key>son</key>
+			<string>Tinh dien</string>
+			<key>decal</key>
+			<string>Keo dan</string>
+			<key>phuoc xe</key>
+			<string>Thep carbon cong nghe Jett</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>groupid</key>
+		<string>3</string>
+		<key>loaixe</key>
+		<string>Xe Thoi Trang</string>
+		<key>kieuxe</key>
+		<string>NITRO BLUE/RED</string>
+		<key>anh</key>
+		<string>anh7.tiff</string>
+		<key>sotien</key>
+		<integer>2500000</integer>
+		<key>thongso</key>
+		<dict>
+			<key>mau</key>
+			<string>Den,Trang.Do</string>
+			<key>khung</key>
+			<string>Thep carbon cong nghe Jett</string>
+			<key>decal</key>
+			<string>Son</string>
+			<key>son</key>
+			<string>Tinh dien</string>
+			<key>phuoc xe</key>
+			<string>Flux-Thep co he thong giam xoc</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>groupid</key>
+		<string>3</string>
+		<key>loaixe</key>
+		<string>Xe Thoi Trang</string>
+		<key>kieuxe</key>
+		<string>NITRO SPORT</string>
+		<key>anh</key>
+		<string>anh10.gif</string>
+		<key>sotien</key>
+		<integer>3000000</integer>
+		<key>thongso</key>
+		<dict>
+			<key>mau</key>
+			<string>Xanh den</string>
+			<key>khung</key>
+			<string>Thep carbon cong nghe Jett</string>
+			<key>decal</key>
+			<string>Son</string>
+			<key>son</key>
+			<string>Tinh dien</string>
+			<key>phuoc xe</key>
+			<string>Flux-Thep co he thong giam xoc</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>groupid</key>
+		<string>3</string>
+		<key>loaixe</key>
+		<string>Xe Thoi Trang</string>
+		<key>kieuxe</key>
+		<string>ALPHA BELTA</string>
+		<key>anh</key>
+		<string>anh9.gif</string>
+		<key>sotien</key>
+		<integer>8500000</integer>
+		<key>thongso</key>
+		<dict>
+			<key>mau</key>
+			<string>Den,Do,Nau dong</string>
+			<key>khung</key>
+			<string>Thep</string>
+			<key>decal</key>
+			<string>Son</string>
+			<key>son</key>
+			<string>Tinh dien</string>
+			<key>phuoc xe</key>
+			<string>Thep co he thong giam xoc</string>
+		</dict>
+	</dict>
+</array>
 </plist>
