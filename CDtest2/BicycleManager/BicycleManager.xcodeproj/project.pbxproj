@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		147419A61715709600906C7E /* anh5.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 147419A51715709600906C7E /* anh5.tiff */; };
+		147419A81715757100906C7E /* find.png in Resources */ = {isa = PBXBuildFile; fileRef = 147419A71715757100906C7E /* find.png */; };
+		147419AA1715767900906C7E /* Bicycle.plist in Resources */ = {isa = PBXBuildFile; fileRef = 147419A91715767900906C7E /* Bicycle.plist */; };
+		CD123A4C171907C30060C137 /* InformationBicycle.m in Sources */ = {isa = PBXBuildFile; fileRef = CD123A4A171907C30060C137 /* InformationBicycle.m */; };
+		CD123A4D171907C30060C137 /* InformationBicycle.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD123A4B171907C30060C137 /* InformationBicycle.xib */; };
+		CD123A561719177D0060C137 /* InformationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD123A541719177D0060C137 /* InformationVC.m */; };
+		CD123A571719177D0060C137 /* InformationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD123A551719177D0060C137 /* InformationVC.xib */; };
+		CD1D414C1717B6BE00D11510 /* anh2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = CD1D414B1717B6BE00D11510 /* anh2.tiff */; };
+		CD1D414E1717B6C300D11510 /* anh.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1D414D1717B6C300D11510 /* anh.png */; };
+		CD1D41501717B6C700D11510 /* anh7.tiff in Resources */ = {isa = PBXBuildFile; fileRef = CD1D414F1717B6C700D11510 /* anh7.tiff */; };
+		CD1D41521717B6CA00D11510 /* anh11.tiff in Resources */ = {isa = PBXBuildFile; fileRef = CD1D41511717B6CA00D11510 /* anh11.tiff */; };
+		CD1D41541717B6CD00D11510 /* anh3.tiff in Resources */ = {isa = PBXBuildFile; fileRef = CD1D41531717B6CD00D11510 /* anh3.tiff */; };
+		CD1D41561717B6D200D11510 /* anh15.gif in Resources */ = {isa = PBXBuildFile; fileRef = CD1D41551717B6D200D11510 /* anh15.gif */; };
+		CD1D41581717B6D700D11510 /* anh6.tiff in Resources */ = {isa = PBXBuildFile; fileRef = CD1D41571717B6D700D11510 /* anh6.tiff */; };
+		CD1D415A1717B6D900D11510 /* anh8.tiff in Resources */ = {isa = PBXBuildFile; fileRef = CD1D41591717B6D900D11510 /* anh8.tiff */; };
+		CD1D415C1717B6DC00D11510 /* anh9.gif in Resources */ = {isa = PBXBuildFile; fileRef = CD1D415B1717B6DC00D11510 /* anh9.gif */; };
+		CD1D415E1717B6E000D11510 /* anh10.gif in Resources */ = {isa = PBXBuildFile; fileRef = CD1D415D1717B6E000D11510 /* anh10.gif */; };
+		CD1D41601717B6E400D11510 /* anh12.tiff in Resources */ = {isa = PBXBuildFile; fileRef = CD1D415F1717B6E400D11510 /* anh12.tiff */; };
+		CD1D41621717B6E600D11510 /* anh13.tiff in Resources */ = {isa = PBXBuildFile; fileRef = CD1D41611717B6E600D11510 /* anh13.tiff */; };
+		CD1D41641717B6E900D11510 /* anh14.tiff in Resources */ = {isa = PBXBuildFile; fileRef = CD1D41631717B6E900D11510 /* anh14.tiff */; };
+		CD1D41661717B6EC00D11510 /* anh16.tiff in Resources */ = {isa = PBXBuildFile; fileRef = CD1D41651717B6EC00D11510 /* anh16.tiff */; };
+		CD1D41681717B6EF00D11510 /* xedap3.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1D41671717B6EF00D11510 /* xedap3.png */; };
+		CD1D416A1717BAFA00D11510 /* pick1.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1D41691717BAFA00D11510 /* pick1.png */; };
+		CD1D416C1717BDAB00D11510 /* pick2.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1D416B1717BDAB00D11510 /* pick2.png */; };
+		CD1D416F1717C18C00D11510 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1D416E1717C18B00D11510 /* DataManager.m */; };
+		CD1D41721717E2E100D11510 /* BicycleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1D41711717E2E100D11510 /* BicycleObject.m */; };
+		CD1D41751717E45E00D11510 /* DataManagerBicycle.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1D41741717E45D00D11510 /* DataManagerBicycle.m */; };
+		CD1D417A17182B2900D11510 /* theme1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD1D417917182B2900D11510 /* theme1.jpg */; };
+		CD80B22217140579003A45DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD80B22117140579003A45DD /* UIKit.framework */; };
+		CD80B22417140579003A45DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD80B22317140579003A45DD /* Foundation.framework */; };
+		CD80B22617140579003A45DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD80B22517140579003A45DD /* CoreGraphics.framework */; };
+		CD80B22C17140579003A45DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD80B22A17140579003A45DD /* InfoPlist.strings */; };
+		CD80B22E17140579003A45DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD80B22D17140579003A45DD /* main.m */; };
+		CD80B23217140579003A45DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD80B23117140579003A45DD /* AppDelegate.m */; };
+		CD80B23417140579003A45DD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CD80B23317140579003A45DD /* Default.png */; };
+		CD80B23617140579003A45DD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD80B23517140579003A45DD /* Default@2x.png */; };
+		CD80B23817140579003A45DD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD80B23717140579003A45DD /* Default-568h@2x.png */; };
+		CD80B23B17140579003A45DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD80B23A17140579003A45DD /* ViewController.m */; };
+		CD80B23E17140579003A45DD /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD80B23C17140579003A45DD /* ViewController_iPhone.xib */; };
+		CD80B24117140579003A45DD /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD80B23F17140579003A45DD /* ViewController_iPad.xib */; };
+		CD80B24B1714097E003A45DD /* bicycle.png in Resources */ = {isa = PBXBuildFile; fileRef = CD80B24A1714097E003A45DD /* bicycle.png */; };
+		CD80B25317140B3E003A45DD /* SuportObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CD80B25217140B3E003A45DD /* SuportObject.m */; };
+		CD80B25B1714167A003A45DD /* Suport.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD80B25A1714167A003A45DD /* Suport.plist */; };
+		CDF18CBB1715173C001664AF /* TypeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF18CBA1715173C001664AF /* TypeObject.m */; };
+		CDF18CBE1715217C001664AF /* Object.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF18CBD1715217C001664AF /* Object.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		147419A51715709600906C7E /* anh5.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = anh5.tiff; sourceTree = "<group>"; };
+		147419A71715757100906C7E /* find.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = find.png; sourceTree = "<group>"; };
+		147419A91715767900906C7E /* Bicycle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Bicycle.plist; sourceTree = "<group>"; };
+		CD123A49171907C30060C137 /* InformationBicycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationBicycle.h; sourceTree = "<group>"; };
+		CD123A4A171907C30060C137 /* InformationBicycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationBicycle.m; sourceTree = "<group>"; };
+		CD123A4B171907C30060C137 /* InformationBicycle.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationBicycle.xib; sourceTree = "<group>"; };
+		CD123A531719177D0060C137 /* InformationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationVC.h; sourceTree = "<group>"; };
+		CD123A541719177D0060C137 /* InformationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationVC.m; sourceTree = "<group>"; };
+		CD123A551719177D0060C137 /* InformationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationVC.xib; sourceTree = "<group>"; };
+		CD1D414B1717B6BE00D11510 /* anh2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = anh2.tiff; sourceTree = "<group>"; };
+		CD1D414D1717B6C300D11510 /* anh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anh.png; sourceTree = "<group>"; };
+		CD1D414F1717B6C700D11510 /* anh7.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = anh7.tiff; sourceTree = "<group>"; };
+		CD1D41511717B6CA00D11510 /* anh11.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = anh11.tiff; sourceTree = "<group>"; };
+		CD1D41531717B6CD00D11510 /* anh3.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = anh3.tiff; sourceTree = "<group>"; };
+		CD1D41551717B6D200D11510 /* anh15.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = anh15.gif; sourceTree = "<group>"; };
+		CD1D41571717B6D700D11510 /* anh6.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = anh6.tiff; sourceTree = "<group>"; };
+		CD1D41591717B6D900D11510 /* anh8.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = anh8.tiff; sourceTree = "<group>"; };
+		CD1D415B1717B6DC00D11510 /* anh9.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = anh9.gif; sourceTree = "<group>"; };
+		CD1D415D1717B6E000D11510 /* anh10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = anh10.gif; sourceTree = "<group>"; };
+		CD1D415F1717B6E400D11510 /* anh12.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = anh12.tiff; sourceTree = "<group>"; };
+		CD1D41611717B6E600D11510 /* anh13.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = anh13.tiff; sourceTree = "<group>"; };
+		CD1D41631717B6E900D11510 /* anh14.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = anh14.tiff; sourceTree = "<group>"; };
+		CD1D41651717B6EC00D11510 /* anh16.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = anh16.tiff; sourceTree = "<group>"; };
+		CD1D41671717B6EF00D11510 /* xedap3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xedap3.png; sourceTree = "<group>"; };
+		CD1D41691717BAFA00D11510 /* pick1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pick1.png; sourceTree = "<group>"; };
+		CD1D416B1717BDAB00D11510 /* pick2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pick2.png; sourceTree = "<group>"; };
+		CD1D416D1717C18B00D11510 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		CD1D416E1717C18B00D11510 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		CD1D41701717E2E100D11510 /* BicycleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BicycleObject.h; sourceTree = "<group>"; };
+		CD1D41711717E2E100D11510 /* BicycleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BicycleObject.m; sourceTree = "<group>"; };
+		CD1D41731717E45D00D11510 /* DataManagerBicycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManagerBicycle.h; sourceTree = "<group>"; };
+		CD1D41741717E45D00D11510 /* DataManagerBicycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManagerBicycle.m; sourceTree = "<group>"; };
+		CD1D417917182B2900D11510 /* theme1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = theme1.jpg; sourceTree = "<group>"; };
+		CD80B21E17140579003A45DD /* BicycleManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BicycleManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD80B22117140579003A45DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD80B22317140579003A45DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD80B22517140579003A45DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD80B22917140579003A45DD /* BicycleManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BicycleManager-Info.plist"; sourceTree = "<group>"; };
+		CD80B22B17140579003A45DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD80B22D17140579003A45DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD80B22F17140579003A45DD /* BicycleManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BicycleManager-Prefix.pch"; sourceTree = "<group>"; };
+		CD80B23017140579003A45DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD80B23117140579003A45DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD80B23317140579003A45DD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CD80B23517140579003A45DD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CD80B23717140579003A45DD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CD80B23917140579003A45DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD80B23A17140579003A45DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD80B23D17140579003A45DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		CD80B24017140579003A45DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		CD80B24A1714097E003A45DD /* bicycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bicycle.png; sourceTree = "<group>"; };
+		CD80B25117140B3E003A45DD /* SuportObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuportObject.h; sourceTree = "<group>"; };
+		CD80B25217140B3E003A45DD /* SuportObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuportObject.m; sourceTree = "<group>"; };
+		CD80B25A1714167A003A45DD /* Suport.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Suport.plist; sourceTree = "<group>"; };
+		CDF18CB91715173C001664AF /* TypeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeObject.h; sourceTree = "<group>"; };
+		CDF18CBA1715173C001664AF /* TypeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeObject.m; sourceTree = "<group>"; };
+		CDF18CBC1715217C001664AF /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
+		CDF18CBD1715217C001664AF /* Object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Object.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD80B21B17140579003A45DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD80B22217140579003A45DD /* UIKit.framework in Frameworks */,
+				CD80B22417140579003A45DD /* Foundation.framework in Frameworks */,
+				CD80B22617140579003A45DD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD80B21517140579003A45DD = {
+			isa = PBXGroup;
+			children = (
+				CD1D417917182B2900D11510 /* theme1.jpg */,
+				CD1D416B1717BDAB00D11510 /* pick2.png */,
+				CD1D414F1717B6C700D11510 /* anh7.tiff */,
+				CD1D41691717BAFA00D11510 /* pick1.png */,
+				CD1D41531717B6CD00D11510 /* anh3.tiff */,
+				CD1D41551717B6D200D11510 /* anh15.gif */,
+				CD1D414D1717B6C300D11510 /* anh.png */,
+				CD1D41511717B6CA00D11510 /* anh11.tiff */,
+				CD1D41571717B6D700D11510 /* anh6.tiff */,
+				CD1D414B1717B6BE00D11510 /* anh2.tiff */,
+				CD1D41591717B6D900D11510 /* anh8.tiff */,
+				CD1D415D1717B6E000D11510 /* anh10.gif */,
+				CD1D41631717B6E900D11510 /* anh14.tiff */,
+				CD1D415B1717B6DC00D11510 /* anh9.gif */,
+				CD1D41651717B6EC00D11510 /* anh16.tiff */,
+				CD1D415F1717B6E400D11510 /* anh12.tiff */,
+				CD1D41671717B6EF00D11510 /* xedap3.png */,
+				CD1D41611717B6E600D11510 /* anh13.tiff */,
+				147419A51715709600906C7E /* anh5.tiff */,
+				CD80B24A1714097E003A45DD /* bicycle.png */,
+				147419A71715757100906C7E /* find.png */,
+				CD80B22717140579003A45DD /* BicycleManager */,
+				CD80B22017140579003A45DD /* Frameworks */,
+				CD80B21F17140579003A45DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD80B21F17140579003A45DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD80B21E17140579003A45DD /* BicycleManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD80B22017140579003A45DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD80B22117140579003A45DD /* UIKit.framework */,
+				CD80B22317140579003A45DD /* Foundation.framework */,
+				CD80B22517140579003A45DD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD80B22717140579003A45DD /* BicycleManager */ = {
+			isa = PBXGroup;
+			children = (
+				CD80B23017140579003A45DD /* AppDelegate.h */,
+				CD80B23117140579003A45DD /* AppDelegate.m */,
+				CD80B23917140579003A45DD /* ViewController.h */,
+				CD80B23A17140579003A45DD /* ViewController.m */,
+				CD80B23C17140579003A45DD /* ViewController_iPhone.xib */,
+				CD80B23F17140579003A45DD /* ViewController_iPad.xib */,
+				CD80B25117140B3E003A45DD /* SuportObject.h */,
+				CD80B25217140B3E003A45DD /* SuportObject.m */,
+				CD80B25A1714167A003A45DD /* Suport.plist */,
+				CDF18CB91715173C001664AF /* TypeObject.h */,
+				CDF18CBA1715173C001664AF /* TypeObject.m */,
+				CDF18CBC1715217C001664AF /* Object.h */,
+				CDF18CBD1715217C001664AF /* Object.m */,
+				147419A91715767900906C7E /* Bicycle.plist */,
+				CD1D416D1717C18B00D11510 /* DataManager.h */,
+				CD1D416E1717C18B00D11510 /* DataManager.m */,
+				CD1D41731717E45D00D11510 /* DataManagerBicycle.h */,
+				CD1D41741717E45D00D11510 /* DataManagerBicycle.m */,
+				CD1D41701717E2E100D11510 /* BicycleObject.h */,
+				CD1D41711717E2E100D11510 /* BicycleObject.m */,
+				CD123A49171907C30060C137 /* InformationBicycle.h */,
+				CD123A4A171907C30060C137 /* InformationBicycle.m */,
+				CD123A4B171907C30060C137 /* InformationBicycle.xib */,
+				CD123A531719177D0060C137 /* InformationVC.h */,
+				CD123A541719177D0060C137 /* InformationVC.m */,
+				CD123A551719177D0060C137 /* InformationVC.xib */,
+				CD80B22817140579003A45DD /* Supporting Files */,
+			);
+			path = BicycleManager;
+			sourceTree = "<group>";
+		};
+		CD80B22817140579003A45DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD80B22917140579003A45DD /* BicycleManager-Info.plist */,
+				CD80B22A17140579003A45DD /* InfoPlist.strings */,
+				CD80B22D17140579003A45DD /* main.m */,
+				CD80B22F17140579003A45DD /* BicycleManager-Prefix.pch */,
+				CD80B23317140579003A45DD /* Default.png */,
+				CD80B23517140579003A45DD /* Default@2x.png */,
+				CD80B23717140579003A45DD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD80B21D17140579003A45DD /* BicycleManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD80B24417140579003A45DD /* Build configuration list for PBXNativeTarget "BicycleManager" */;
+			buildPhases = (
+				CD80B21A17140579003A45DD /* Sources */,
+				CD80B21B17140579003A45DD /* Frameworks */,
+				CD80B21C17140579003A45DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BicycleManager;
+			productName = BicycleManager;
+			productReference = CD80B21E17140579003A45DD /* BicycleManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD80B21617140579003A45DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ios12;
+			};
+			buildConfigurationList = CD80B21917140579003A45DD /* Build configuration list for PBXProject "BicycleManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD80B21517140579003A45DD;
+			productRefGroup = CD80B21F17140579003A45DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD80B21D17140579003A45DD /* BicycleManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD80B21C17140579003A45DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD80B22C17140579003A45DD /* InfoPlist.strings in Resources */,
+				CD80B23417140579003A45DD /* Default.png in Resources */,
+				CD80B23617140579003A45DD /* Default@2x.png in Resources */,
+				CD80B23817140579003A45DD /* Default-568h@2x.png in Resources */,
+				CD80B23E17140579003A45DD /* ViewController_iPhone.xib in Resources */,
+				CD80B24117140579003A45DD /* ViewController_iPad.xib in Resources */,
+				CD80B24B1714097E003A45DD /* bicycle.png in Resources */,
+				CD80B25B1714167A003A45DD /* Suport.plist in Resources */,
+				147419A61715709600906C7E /* anh5.tiff in Resources */,
+				147419A81715757100906C7E /* find.png in Resources */,
+				147419AA1715767900906C7E /* Bicycle.plist in Resources */,
+				CD1D414C1717B6BE00D11510 /* anh2.tiff in Resources */,
+				CD1D414E1717B6C300D11510 /* anh.png in Resources */,
+				CD1D41501717B6C700D11510 /* anh7.tiff in Resources */,
+				CD1D41521717B6CA00D11510 /* anh11.tiff in Resources */,
+				CD1D41541717B6CD00D11510 /* anh3.tiff in Resources */,
+				CD1D41561717B6D200D11510 /* anh15.gif in Resources */,
+				CD1D41581717B6D700D11510 /* anh6.tiff in Resources */,
+				CD1D415A1717B6D900D11510 /* anh8.tiff in Resources */,
+				CD1D415C1717B6DC00D11510 /* anh9.gif in Resources */,
+				CD1D415E1717B6E000D11510 /* anh10.gif in Resources */,
+				CD1D41601717B6E400D11510 /* anh12.tiff in Resources */,
+				CD1D41621717B6E600D11510 /* anh13.tiff in Resources */,
+				CD1D41641717B6E900D11510 /* anh14.tiff in Resources */,
+				CD1D41661717B6EC00D11510 /* anh16.tiff in Resources */,
+				CD1D41681717B6EF00D11510 /* xedap3.png in Resources */,
+				CD1D416A1717BAFA00D11510 /* pick1.png in Resources */,
+				CD1D416C1717BDAB00D11510 /* pick2.png in Resources */,
+				CD1D417A17182B2900D11510 /* theme1.jpg in Resources */,
+				CD123A4D171907C30060C137 /* InformationBicycle.xib in Resources */,
+				CD123A571719177D0060C137 /* InformationVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD80B21A17140579003A45DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD80B22E17140579003A45DD /* main.m in Sources */,
+				CD80B23217140579003A45DD /* AppDelegate.m in Sources */,
+				CD80B23B17140579003A45DD /* ViewController.m in Sources */,
+				CD80B25317140B3E003A45DD /* SuportObject.m in Sources */,
+				CDF18CBB1715173C001664AF /* TypeObject.m in Sources */,
+				CDF18CBE1715217C001664AF /* Object.m in Sources */,
+				CD1D416F1717C18C00D11510 /* DataManager.m in Sources */,
+				CD1D41721717E2E100D11510 /* BicycleObject.m in Sources */,
+				CD1D41751717E45E00D11510 /* DataManagerBicycle.m in Sources */,
+				CD123A4C171907C30060C137 /* InformationBicycle.m in Sources */,
+				CD123A561719177D0060C137 /* InformationVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD80B22A17140579003A45DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD80B22B17140579003A45DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD80B23C17140579003A45DD /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD80B23D17140579003A45DD /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		CD80B23F17140579003A45DD /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD80B24017140579003A45DD /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD80B24217140579003A45DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD80B24317140579003A45DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD80B24517140579003A45DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BicycleManager/BicycleManager-Prefix.pch";
+				INFOPLIST_FILE = "BicycleManager/BicycleManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD80B24617140579003A45DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BicycleManager/BicycleManager-Prefix.pch";
+				INFOPLIST_FILE = "BicycleManager/BicycleManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD80B21917140579003A45DD /* Build configuration list for PBXProject "BicycleManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD80B24217140579003A45DD /* Debug */,
+				CD80B24317140579003A45DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD80B24417140579003A45DD /* Build configuration list for PBXNativeTarget "BicycleManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD80B24517140579003A45DD /* Debug */,
+				CD80B24617140579003A45DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD80B21617140579003A45DD /* Project object */;
+}

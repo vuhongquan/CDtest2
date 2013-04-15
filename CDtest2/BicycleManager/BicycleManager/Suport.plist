@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>kieumu</key>
+		<string>WindSpeed</string>
+		<key>thongso</key>
+		<string>-WindSpeed-Xanh/Vang co luoi trai</string>
+		<key>anh</key>
+		<string>anh12.tiff</string>
+		<key>sotien</key>
+		<integer>500000</integer>
+	</dict>
+	<dict>
+		<key>kieumu</key>
+		<string>WindSpeed</string>
+		<key>thongso</key>
+		<string>-WindSpeed-Do/Den co luoi trai</string>
+		<key>anh</key>
+		<string>anh13.tiff</string>
+		<key>sotien</key>
+		<integer>500000</integer>
+	</dict>
+	<dict>
+		<key>kieumu</key>
+		<string>Giant</string>
+		<key>thongso</key>
+		<string>-Giant-Trang/Do khong luoi trai</string>
+		<key>anh</key>
+		<string>anh14.tiff</string>
+		<key>sotien</key>
+		<integer>500000</integer>
+	</dict>
+</array>
+</plist>
