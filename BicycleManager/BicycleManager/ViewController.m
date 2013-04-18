@@ -97,7 +97,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 -(void) search:(id)sender{
-    _suportObject.kieumu = self.object.kieuMu;
+    //_suportObject.kieumu = self.object.kieuMu;
     if ([_text.text isEqualToString: @"Xe dap dien"] ) {
         _bicycleObject.groupid = @"1";
         [self.navigationController pushViewController:_bicycleObject animated:YES];

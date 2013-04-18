@@ -1,23 +1,24 @@
 //
-//  BicycleObject.m
-//  BicycleManager
+//  TableViewListPlayer.m
+//  ClubManager
 //
-//  Created by ios12 on 4/12/13.
+//  Created by ios12 on 4/15/13.
 //  Copyright (c) 2013 ios12. All rights reserved.
 //
 
-#import "BicycleObject.h"
+#import "TableViewListPlayer.h"
 #import "Object.h"
-#import "InformationBicycle.h"
-@interface BicycleObject ()
+#import "ViewListClubVC.h"
+#import "InformationVC.h"
+@interface TableViewListPlayer ()
 {
-UITableView *_tableView1;
-NSMutableArray *_arrayObject1;
-DataManagerBicycle * _plist2;
+    NSMutableArray *_arrayObject1;
+    UITableView *_tableView1;
+    ViewListClubVC *_viewlistclubVC;
 }
 @end
 
-@implementation BicycleObject 
+@implementation TableViewListPlayer
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -30,25 +31,6 @@ DataManagerBicycle * _plist2;
 
 - (void)viewWillAppear:(BOOL)animated
 {
-
-    [super viewWillAppear:YES];
-	// Do any additional setup after loading the view.
-    self.title = self.loaixe;
-    _arrayObject1 =[NSMutableArray new];
-    _plist2 = [DataManagerBicycle sharedManager1];
-    NSPredicate* pre=[NSPredicate predicateWithFormat:@"groupid == %@",self.groupid];
-    NSArray * arrayObject =(NSArray*)[_plist2.arrayBicycle filteredArrayUsingPredicate:pre];
-    for (int i = 0; i < [arrayObject count]; i++) {
-        NSDictionary *dic = [[NSDictionary alloc]initWithDictionary:arrayObject[i]];
-        Object * object = [Object new];
-        object.loaixe= [dic objectForKey:@"loaixe"];
-        object.kieuXe = [dic objectForKey:@"kieuxe"];
-        object.anh =[dic objectForKey:@"anh"];
-        object.thongSo = [dic objectForKey:@"thongso"];
-        object.soTien = [[dic objectForKey:@"sotien"] integerValue ];
-        [_arrayObject1 addObject:object];
-    
-    }
     
     _tableView1 = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
     //3. Assign dataSource and delegate properties of UITableView variables
@@ -57,9 +39,30 @@ DataManagerBicycle * _plist2;
     [self.view addSubview:_tableView1];
     self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"Back" style:UIBarButtonItemStyleDone target:self action:nil];
     
-    [super viewWillAppear:YES];
-	// Do any additional setup after loading the view.
+    _arrayObject1 = [NSMutableArray new];
+    
+    NSArray *arrayPlayer =  [NSArray arrayWithArray:self.object.thanhvien];
+    for (int i=0; i< [arrayPlayer count]; i++) {
+        NSDictionary *dic = [[NSDictionary alloc]initWithDictionary:arrayPlayer[i]];
+        ObjectPlayer *objectplayer = [ObjectPlayer new];
+        objectplayer.fullname = [dic objectForKey:@"fullname"];
+        objectplayer.anhcauthu=[dic objectForKey:@"anh"];
+        objectplayer.ngaysinh =[dic objectForKey:@"ngaysinh"];
+        objectplayer.noisinh = [dic objectForKey:@"noisinh"];
+        objectplayer.chieucao =[dic objectForKey:@"chieucao"];
+        objectplayer.vitri =[dic objectForKey:@"vitri"];
+        objectplayer.soao =[dic objectForKey:@"soao"];
+        objectplayer.clbtre =[dic objectForKey:@"clbtre"];
+        objectplayer.clbchuyennghiep = [dic objectForKey:@"clbchuyennghiep"];
+        objectplayer.doituyenquocgia = [dic objectForKey:@"doituyenquocgia"];
+        [_arrayObject1 addObject:objectplayer];
 
+    }
+    
+    
+    [super viewWillAppear:YES];
+    
+	// Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
@@ -72,8 +75,8 @@ DataManagerBicycle * _plist2;
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
-    return [NSString stringWithFormat:@"Co %d loai",[_arrayObject1 count]];
-//ghi tren thanh tableView
+    return [NSString stringWithFormat:@"Co %d Cau Thu",[_arrayObject1 count]];
+    //ghi tren thanh tableView
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -93,15 +96,17 @@ DataManagerBicycle * _plist2;
         result = [[UITableViewCell alloc]  initWithStyle:UITableViewCellStyleSubtitle
                                          reuseIdentifier:TableViewCellIdentifier];
     }
-
-        
- 
+    
+    
+    
     if (indexPath.section == 0) {
-        Object * cellObject1 = [_arrayObject1 objectAtIndex:indexPath.row];
-        result.textLabel.text = cellObject1.kieuXe;
+        ObjectPlayer * cellObject1 = [_arrayObject1 objectAtIndex:indexPath.row];
+        result.textLabel.text = cellObject1.fullname;
         result.textLabel.font = [UIFont systemFontOfSize:15];
-        [result.imageView setImage:[UIImage imageNamed:cellObject1.anh]];
-        result.detailTextLabel.text = [NSString stringWithFormat:@"%d VND",cellObject1.soTien];
+        UIImage * imagePlayer = [UIImage imageNamed:cellObject1.anhcauthu];
+        [result.imageView setImage:imagePlayer];
+        result.detailTextLabel.text = [NSString stringWithFormat:@"Cao %@\n%@",cellObject1.chieucao,cellObject1.clbchuyennghiep];
+        result.detailTextLabel.numberOfLines = 2;
     }
     //[result.imageView setImage:[UIImage imageNamed:[dic objectForKey:_arraySuport]]];
     //result.detailTextLabel.text = [NSString stringWithFormat:@"%@ VND",_arraySuport];
@@ -111,9 +116,9 @@ DataManagerBicycle * _plist2;
     return 100;
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    Object * object1 = [_arrayObject1 objectAtIndex:indexPath.row];
-    InformationBicycle * info = [[InformationBicycle alloc]initWithNibName:@"InformationBicycle" bundle:nil];
-    info.object = object1;
+    ObjectPlayer * objectPlayer = [_arrayObject1 objectAtIndex:indexPath.row];
+    InformationVC * info = [[InformationVC alloc]initWithNibName:@"InformationVC" bundle:nil];
+    info.objectPlayerManager = objectPlayer;
     info.modalPresentationStyle = UIModalPresentationFormSheet;
     info.modalTransitionStyle =UIModalTransitionStyleCrossDissolve;
     [self presentViewController:info animated:YES completion:^{

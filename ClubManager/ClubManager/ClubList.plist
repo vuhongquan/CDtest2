@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>groupid</key>
+		<string>1</string>
+		<key>sotranthidau</key>
+		<string>10</string>
+		<key>diemso</key>
+		<string>25</string>
+		<key>diemtrandau</key>
+		<string>2</string>
+		<key>history</key>
+		<string>Manchester United Football Club is an English professional football club, based in Old Trafford, Greater Manchester, that plays in the Premier League. Founded as Newton Heath LYR Football Club in 1878, the club changed its name to Manchester United in 1902 and moved to Old Trafford in 1910.
+Manchester United has won many trophies in English football, including a record 19 league titles, a record 11 FA Cups,[3] four League Cups and a record 19 FA Community Shields. The club has also won three European Cups, one UEFA Cup Winners&apos; Cup, one UEFA Super Cup, one Intercontinental Cup and one FIFA Club World Cup. In 1998–99, the club won a Treble of the Premier League, the FA Cup and the UEFA Champions League, an unprecedented feat for an English club.</string>
+		<key>anhnen</key>
+		<string>theme3.jpeg</string>
+		<key>anh</key>
+		<string>Man.png</string>
+		<key>clubname</key>
+		<string>Manchester United</string>
+		<key>birth</key>
+		<string>1878</string>
+		<key>thanhtich</key>
+		<dict>
+			<key>bongdaanh</key>
+			<string>19 lan</string>
+			<key>cupfa</key>
+			<string>11 lan</string>
+			<key>uefa</key>
+			<string>3 lan</string>
+		</dict>
+		<key>thanhvien</key>
+		<array>
+			<dict>
+				<key>fullname</key>
+				<string>Edwin Van der Sar</string>
+				<key>anh</key>
+				<string>thumonMU.jpg</string>
+				<key>ngaysinh</key>
+				<string>29 thang 10,1970(42 tuoi)</string>
+				<key>noisinh</key>
+				<string>Voorhout,Ha Lan</string>
+				<key>chieucao</key>
+				<string>1,97 m</string>
+				<key>vitri</key>
+				<string>Thu mon</string>
+				<key>soao</key>
+				<string>1</string>
+				<key>clbtre</key>
+				<string>Foreholte</string>
+				<key>clbchuyennghiep</key>
+				<string>Manchester United</string>
+				<key>doituyenquocgia</key>
+				<string>Ha Lan</string>
+			</dict>
+			<dict>
+				<key>fullname</key>
+				<string>Rio Gavin Ferdinand</string>
+				<key>anh</key>
+				<string>phongthuMU.jpg</string>
+				<key>ngaysinh</key>
+				<string>8 thang 11,1978(34 tuoi)</string>
+				<key>noisinh</key>
+				<string>Peckham,London,Anh</string>
+				<key>chieucao</key>
+				<string>1,91 m</string>
+				<key>vitri</key>
+				<string>Trung ve</string>
+				<key>soao</key>
+				<string>5</string>
+				<key>clbtre</key>
+				<string>QPR</string>
+				<key>clbchuyennghiep</key>
+				<string>Manchester United</string>
+				<key>doituyenquocgia</key>
+				<string>Anh</string>
+			</dict>
+			<dict>
+				<key>fullname</key>
+				<string>Wayne Mark Rooney</string>
+				<key>anh</key>
+				<string>tiendaoMU.jpg</string>
+				<key>ngaysinh</key>
+				<string>24 thang 10,1985</string>
+				<key>noisinh</key>
+				<string>Croxteth,Liverpool,Anh</string>
+				<key>chieucao</key>
+				<string>1,76m</string>
+				<key>vitri</key>
+				<string>Tien dao</string>
+				<key>soao</key>
+				<string>10</string>
+				<key>clbtre</key>
+				<string>Everton</string>
+				<key>clbchuyennghiep</key>
+				<string>Manchester United</string>
+				<key>doituyenquocgia</key>
+				<string>Anh</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>groupid</key>
+		<string>2</string>
+		<key>sotranthidau</key>
+		<string>9</string>
+		<key>diemtrandau</key>
+		<string>3</string>
+		<key>diemso</key>
+		<string>20</string>
+		<key>history</key>
+		<string>History of Arsenal F.C. (1886–1966) – The club were founded in 1886 as a workers&apos; team from Woolwich and joined the Football League in 1893. The team moved to Arsenal Stadium, Highbury in 1913 and had their first period of success under Herbert Chapman and George Allison in the 1930s, followed by that of Tom Whittaker in the 1940s and early 1950s. However after Whittaker&apos;s death the club gradually descended and were in mid-table obscurity by the mid-1960s.</string>
+		<key>anhnen</key>
+		<string>theme4.jpeg</string>
+		<key>anh</key>
+		<string>ar.png</string>
+		<key>clubname</key>
+		<string>Arsenal</string>
+		<key>birth</key>
+		<string>1878</string>
+		<key>thanhtich</key>
+		<dict>
+			<key>bongdaanh</key>
+			<string>10 lan</string>
+			<key>cupfa</key>
+			<string>9 lan</string>
+			<key>uefa</key>
+			<string>2 lan</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>groupid</key>
+		<string>3</string>
+		<key>sotranthidau</key>
+		<string>10</string>
+		<key>diemso</key>
+		<string>25</string>
+		<key>diemtrandau</key>
+		<string>4</string>
+		<key>anhnen</key>
+		<string>theme2.jpeg</string>
+		<key>anh</key>
+		<string>Liv.png</string>
+		<key>clubname</key>
+		<string>Liverpool</string>
+		<key>birth</key>
+		<string>1860</string>
+	</dict>
+	<dict>
+		<key>groupid</key>
+		<string>4</string>
+		<key>sotranthidau</key>
+		<string>10</string>
+		<key>diemso</key>
+		<string>21</string>
+		<key>diemtrandau</key>
+		<string>2</string>
+		<key>anhnen</key>
+		<string>theme1.jpeg</string>
+		<key>anh</key>
+		<string>bc.png</string>
+		<key>clubname</key>
+		<string>Barcelona</string>
+		<key>birth</key>
+		<string>1855</string>
+	</dict>
+</array>
+</plist>
