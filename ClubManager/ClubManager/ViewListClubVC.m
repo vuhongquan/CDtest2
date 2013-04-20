@@ -42,9 +42,11 @@ int buffer = 10;
     CGRect scrollViewRect = self.view.bounds;
     self.myScrollView = [[UIScrollView alloc] initWithFrame:scrollViewRect];
     self.myScrollView.pagingEnabled = YES;
+    self.myScrollView.minimumZoomScale = self.myScrollView.frame.size.width;
+    self.myScrollView.maximumZoomScale = 2.0;
+    [self.myScrollView setZoomScale:self.myScrollView.minimumZoomScale];
     [self.view addSubview:self.myScrollView];
     
-//    _arrayObject1 =[NSArray arrayWithArray:_vcFirst.arrayObject1];
     
     self.view.backgroundColor = [UIColor whiteColor];
     self.myScrollView.contentSize = CGSizeMake(scrollViewRect.size.width,ROW_HEIGHT * ROW_NUM);
