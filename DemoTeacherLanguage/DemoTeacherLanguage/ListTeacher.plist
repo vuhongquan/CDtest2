@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>kieuhoc</key>
+		<string>Giao Tiep</string>
+		<key>anh</key>
+		<string>2.jpeg</string>
+		<key>cacbai</key>
+		<array>
+			<dict>
+				<key>tiengviet</key>
+				<string>Xin Chao</string>
+				<key>tiengnhat</key>
+				<string>こんにちは</string>
+				<key>sound</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>tiengviet</key>
+				<string>Ban ten gi</string>
+				<key>tiengnhat</key>
+				<string>お名前は</string>
+				<key>sound</key>
+				<string>2</string>
+			</dict>
+			<dict>
+				<key>tiengviet</key>
+				<string>Ban bao nhieu tuoi</string>
+				<key>tiengnhat</key>
+				<string>何歳です</string>
+				<key>sound</key>
+				<string>3</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>kieuhoc</key>
+		<string>Vuon Thu</string>
+		<key>anh</key>
+		<string>1.jpeg</string>
+		<key>cacbai</key>
+		<array>
+			<dict>
+				<key>tiengviet</key>
+				<string></string>
+				<key>tiengnhat</key>
+				<string></string>
+				<key>sound</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>tiengviet</key>
+				<string></string>
+				<key>tiengnhat</key>
+				<string></string>
+				<key>sound</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>tiengviet</key>
+				<string></string>
+				<key>tiengnhat</key>
+				<string></string>
+				<key>sound</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>kieuhoc</key>
+		<string>Nha Hang</string>
+		<key>anh</key>
+		<string>3.png</string>
+		<key>cacbai</key>
+		<array>
+			<dict>
+				<key>tiengviet</key>
+				<string></string>
+				<key>tiengnhat</key>
+				<string></string>
+				<key>sound</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>tiengviet</key>
+				<string></string>
+				<key>tiengnhat</key>
+				<string></string>
+				<key>sound</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>tiengviet</key>
+				<string></string>
+				<key>tiengnhat</key>
+				<string></string>
+				<key>sound</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
