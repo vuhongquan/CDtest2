@@ -17,7 +17,7 @@
 		0F0ACFCB1627AEC30059EDA7 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0ACFCA1627AEC30059EDA7 /* iCarousel.m */; };
 		0F0ACFCE1627AECC0059EDA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0ACFCD1627AECC0059EDA7 /* ViewController.m */; };
 		0F0ACFD41627B2930059EDA7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0ACFD31627B2930059EDA7 /* QuartzCore.framework */; };
-		CDF2CABA1722920800FE9FE2 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF2CAB91722920800FE9FE2 /* 4.png */; };
+		CDF2CABA1722920800FE9FE2 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF2CAB91722920800FE9FE2 /* 0.png */; };
 		CDF2CABC1722920C00FE9FE2 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF2CABB1722920C00FE9FE2 /* 1.png */; };
 		CDF2CABE1722920F00FE9FE2 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF2CABD1722920F00FE9FE2 /* 2.png */; };
 		CDF2CAC01722921200FE9FE2 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF2CABF1722921200FE9FE2 /* 3.png */; };
@@ -40,7 +40,7 @@
 		0F0ACFCC1627AECC0059EDA7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0F0ACFCD1627AECC0059EDA7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0F0ACFD31627B2930059EDA7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		CDF2CAB91722920800FE9FE2 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		CDF2CAB91722920800FE9FE2 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
 		CDF2CABB1722920C00FE9FE2 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		CDF2CABD1722920F00FE9FE2 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		CDF2CABF1722921200FE9FE2 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 				CDF2CABF1722921200FE9FE2 /* 3.png */,
 				CDF2CABD1722920F00FE9FE2 /* 2.png */,
 				CDF2CABB1722920C00FE9FE2 /* 1.png */,
-				CDF2CAB91722920800FE9FE2 /* 4.png */,
+				CDF2CAB91722920800FE9FE2 /* 0.png */,
 			);
 			path = photo;
 			sourceTree = "<group>";
@@ -179,7 +179,7 @@
 			files = (
 				0F0ACFB71627ADA60059EDA7 /* InfoPlist.strings in Resources */,
 				0F0ACFC01627ADA60059EDA7 /* MainStoryboard.storyboard in Resources */,
-				CDF2CABA1722920800FE9FE2 /* 4.png in Resources */,
+				CDF2CABA1722920800FE9FE2 /* 0.png in Resources */,
 				CDF2CABC1722920C00FE9FE2 /* 1.png in Resources */,
 				CDF2CABE1722920F00FE9FE2 /* 2.png in Resources */,
 				CDF2CAC01722921200FE9FE2 /* 3.png in Resources */,

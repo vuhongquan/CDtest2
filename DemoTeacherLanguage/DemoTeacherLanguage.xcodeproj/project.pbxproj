@@ -31,6 +31,12 @@
 		CDF368B617251B99007B2734 /* TableViewLearningJapanese.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF368B517251B99007B2734 /* TableViewLearningJapanese.m */; };
 		CDF368B917251CB8007B2734 /* Object.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF368B817251CB8007B2734 /* Object.m */; };
 		CDF368BB17253283007B2734 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF368BA17253283007B2734 /* AVFoundation.framework */; };
+		CDF368C21725380F007B2734 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDF368BC1725380F007B2734 /* 4.mp3 */; };
+		CDF368C31725380F007B2734 /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDF368BD1725380F007B2734 /* 5.mp3 */; };
+		CDF368C41725380F007B2734 /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDF368BE1725380F007B2734 /* 6.mp3 */; };
+		CDF368C51725380F007B2734 /* 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDF368BF1725380F007B2734 /* 7.mp3 */; };
+		CDF368C61725380F007B2734 /* 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDF368C01725380F007B2734 /* 8.mp3 */; };
+		CDF368C71725380F007B2734 /* 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDF368C11725380F007B2734 /* 9.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +73,12 @@
 		CDF368B717251CB8007B2734 /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
 		CDF368B817251CB8007B2734 /* Object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Object.m; sourceTree = "<group>"; };
 		CDF368BA17253283007B2734 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CDF368BC1725380F007B2734 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		CDF368BD1725380F007B2734 /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
+		CDF368BE1725380F007B2734 /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
+		CDF368BF1725380F007B2734 /* 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 7.mp3; sourceTree = "<group>"; };
+		CDF368C01725380F007B2734 /* 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8.mp3; sourceTree = "<group>"; };
+		CDF368C11725380F007B2734 /* 9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 9.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +159,12 @@
 		CDF3689017250DA4007B2734 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				CDF368BC1725380F007B2734 /* 4.mp3 */,
+				CDF368BD1725380F007B2734 /* 5.mp3 */,
+				CDF368BE1725380F007B2734 /* 6.mp3 */,
+				CDF368BF1725380F007B2734 /* 7.mp3 */,
+				CDF368C01725380F007B2734 /* 8.mp3 */,
+				CDF368C11725380F007B2734 /* 9.mp3 */,
 				CDF368A517250E4A007B2734 /* 3.mp3 */,
 				CDF368A617250E4A007B2734 /* 2.mp3 */,
 				CDF368A717250E4A007B2734 /* 1.mp3 */,
@@ -251,6 +269,12 @@
 				CDF368A917250E4A007B2734 /* 2.mp3 in Resources */,
 				CDF368AA17250E4A007B2734 /* 1.mp3 in Resources */,
 				CDF368AC17250E72007B2734 /* ListTeacher.plist in Resources */,
+				CDF368C21725380F007B2734 /* 4.mp3 in Resources */,
+				CDF368C31725380F007B2734 /* 5.mp3 in Resources */,
+				CDF368C41725380F007B2734 /* 6.mp3 in Resources */,
+				CDF368C51725380F007B2734 /* 7.mp3 in Resources */,
+				CDF368C61725380F007B2734 /* 8.mp3 in Resources */,
+				CDF368C71725380F007B2734 /* 9.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
