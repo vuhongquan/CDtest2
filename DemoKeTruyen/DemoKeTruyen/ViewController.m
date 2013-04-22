@@ -14,6 +14,11 @@
     int _currentPageIndex;
     UIView * _transparentView;
     UILabel * _pageLabel;
+    NSArray * _arraySound;
+    NSTimer *_timer1;
+    UILabel *_labal;
+    NSInteger count;
+    NSTimer *_timer2;
 }
 @end
 
@@ -22,6 +27,7 @@
 - (void)loadView
 {
     [super loadView];
+    [self loadPhotos];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -32,20 +38,42 @@
 }
 - (void)loadPhotos
 {
+    _labal = [[UILabel alloc]init];
+    
+        NSBundle *mainBundle = [NSBundle mainBundle];
+        
+        NSString *filePath = [mainBundle pathForResource:@"10"
+                                                  ofType:@"mp3"];
+        
+        NSData   *fileData = [NSData dataWithContentsOfFile:filePath];
+        
+        NSError  *error = nil;
+        
+        /* Start the audio player */
+        self.audioPlayer = [[AVAudioPlayer alloc] initWithData:fileData
+                                                         error:&error];
+        
+        self.audioPlayer.delegate = self;
+        [self.audioPlayer prepareToPlay];
+        [self.audioPlayer play];
+        self.audioPlayer.volume = 1;
+    [NSTimer scheduledTimerWithTimeInterval:7 target:self selector:@selector(timer) userInfo:nil repeats:NO];
+
+    _timer2 = [NSTimer scheduledTimerWithTimeInterval:20 target:self selector:@selector(removeTime) userInfo:nil repeats:NO];
+
+    NSString *dataPath = [[NSBundle mainBundle] pathForResource:@"PlistTimer" ofType:@"plist"];
+    _arraySound = [[NSArray alloc] initWithContentsOfFile:dataPath];
+      [NSTimer scheduledTimerWithTimeInterval:[_arraySound[0]integerValue] target:self selector:@selector(handleSwipeLeft:) userInfo:nil repeats:NO];
     _photoArray = [[NSMutableArray alloc] initWithCapacity:NUM_PHOTOS];
     for (int i = 0; i < NUM_PHOTOS; i++) {
-        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"%d.jpg", i]];
+        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"%d.png", i]];
         UIImageView *imageView = [[UIImageView alloc] initWithImage: image];
-        imageView.contentMode = UIViewContentModeScaleAspectFit;
+        imageView.frame = self.view.bounds;
+        imageView.contentMode = UIViewContentModeScaleToFill;
         imageView.userInteractionEnabled = YES;
         
         UISwipeGestureRecognizer *swipeLeft = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(handleSwipeLeft:)];
         swipeLeft.direction = UISwipeGestureRecognizerDirectionLeft;
-        
-        UISwipeGestureRecognizer *swipeRight = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(handleSwipeRight:)];
-        swipeRight.direction = UISwipeGestureRecognizerDirectionRight;
-        
-        [imageView addGestureRecognizer:swipeRight];
         [imageView addGestureRecognizer:swipeLeft];
         
         [_photoArray addObject:imageView];
@@ -67,7 +95,7 @@
 }
 - (NSString *) pageText: (NSInteger) pageIndex
 {
-    return [NSString stringWithFormat:@"%d - %d", pageIndex, NUM_PHOTOS];
+    return [NSString stringWithFormat:@"%d - %d", pageIndex+1, NUM_PHOTOS];
 }
 - (void) handleSwipeLeft: (UISwipeGestureRecognizer *)gesture
 {
@@ -80,14 +108,22 @@
         backupLabel.text = [self pageText: _currentPageIndex + 1];
         [_photoArray[_currentPageIndex + 1] addSubview:backupLabel];
         [_transparentView addSubview: _photoArray[_currentPageIndex + 1]];
-        
-        
         [_photoArray[_currentPageIndex] removeFromSuperview];
     } completion:^(BOOL finished){
         _currentPageIndex = _currentPageIndex + 1;
-        
-        //[_transparentView bringSubviewToFront:_pageLabel];
+        [NSTimer scheduledTimerWithTimeInterval:[_arraySound[_currentPageIndex]integerValue] target:self selector:@selector(handleSwipeLeft:) userInfo:nil repeats:NO];
+    
     }];
 }
-
+-(void)timer{
+    _labal.text= @"Co Be Quang Khan Do";
+    _labal.backgroundColor = [UIColor clearColor];
+    _labal.textColor = [UIColor redColor];
+    _labal.font= [UIFont systemFontOfSize:25];
+    _labal.frame = CGRectMake(25, 10, 300, 50);
+    [self.view addSubview:_labal];
+}
+-(void)removeTime{
+    [_labal removeFromSuperview];
+}
 @end

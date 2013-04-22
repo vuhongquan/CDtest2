@@ -19,6 +19,17 @@
 		CDF368EE17253D6D007B2734 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF368ED17253D6D007B2734 /* ViewController.m */; };
 		CDF368F117253D6D007B2734 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDF368EF17253D6D007B2734 /* ViewController_iPhone.xib */; };
 		CDF368F417253D6D007B2734 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDF368F217253D6D007B2734 /* ViewController_iPad.xib */; };
+		CDF3690317253F6A007B2734 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF368FB17253F6A007B2734 /* 0.png */; };
+		CDF3690417253F6A007B2734 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF368FC17253F6A007B2734 /* 1.png */; };
+		CDF3690517253F6A007B2734 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF368FD17253F6A007B2734 /* 2.png */; };
+		CDF3690617253F6A007B2734 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF368FE17253F6A007B2734 /* 3.png */; };
+		CDF3690717253F6A007B2734 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF368FF17253F6A007B2734 /* 4.png */; };
+		CDF3690817253F6A007B2734 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF3690017253F6A007B2734 /* 5.png */; };
+		CDF3690917253F6A007B2734 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF3690117253F6A007B2734 /* 6.png */; };
+		CDF3690A17253F6A007B2734 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF3690217253F6A007B2734 /* 7.png */; };
+		CDF3690D17254333007B2734 /* PlistTimer.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDF3690C17254333007B2734 /* PlistTimer.plist */; };
+		CDF3690F17254841007B2734 /* 10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDF3690E17254841007B2734 /* 10.mp3 */; };
+		CDF3691117254859007B2734 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF3691017254859007B2734 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +50,17 @@
 		CDF368ED17253D6D007B2734 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CDF368F017253D6D007B2734 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		CDF368F317253D6D007B2734 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		CDF368FB17253F6A007B2734 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		CDF368FC17253F6A007B2734 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		CDF368FD17253F6A007B2734 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		CDF368FE17253F6A007B2734 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		CDF368FF17253F6A007B2734 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		CDF3690017253F6A007B2734 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		CDF3690117253F6A007B2734 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		CDF3690217253F6A007B2734 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		CDF3690C17254333007B2734 /* PlistTimer.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PlistTimer.plist; sourceTree = "<group>"; };
+		CDF3690E17254841007B2734 /* 10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10.mp3; sourceTree = "<group>"; };
+		CDF3691017254859007B2734 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF3691117254859007B2734 /* AVFoundation.framework in Frameworks */,
 				CDF368D517253D6D007B2734 /* UIKit.framework in Frameworks */,
 				CDF368D717253D6D007B2734 /* Foundation.framework in Frameworks */,
 				CDF368D917253D6D007B2734 /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +81,7 @@
 		CDF368C817253D6D007B2734 = {
 			isa = PBXGroup;
 			children = (
+				CDF3691017254859007B2734 /* AVFoundation.framework */,
 				CDF368DA17253D6D007B2734 /* DemoKeTruyen */,
 				CDF368D317253D6D007B2734 /* Frameworks */,
 				CDF368D217253D6D007B2734 /* Products */,
@@ -91,6 +115,8 @@
 				CDF368ED17253D6D007B2734 /* ViewController.m */,
 				CDF368EF17253D6D007B2734 /* ViewController_iPhone.xib */,
 				CDF368F217253D6D007B2734 /* ViewController_iPad.xib */,
+				CDF3690B1725431D007B2734 /* Plist */,
+				CDF368FA17253F50007B2734 /* Source */,
 				CDF368DB17253D6D007B2734 /* Supporting Files */,
 			);
 			path = DemoKeTruyen;
@@ -108,6 +134,30 @@
 				CDF368EA17253D6D007B2734 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDF368FA17253F50007B2734 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CDF3690E17254841007B2734 /* 10.mp3 */,
+				CDF368FB17253F6A007B2734 /* 0.png */,
+				CDF368FC17253F6A007B2734 /* 1.png */,
+				CDF368FD17253F6A007B2734 /* 2.png */,
+				CDF368FE17253F6A007B2734 /* 3.png */,
+				CDF368FF17253F6A007B2734 /* 4.png */,
+				CDF3690017253F6A007B2734 /* 5.png */,
+				CDF3690117253F6A007B2734 /* 6.png */,
+				CDF3690217253F6A007B2734 /* 7.png */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		CDF3690B1725431D007B2734 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				CDF3690C17254333007B2734 /* PlistTimer.plist */,
+			);
+			name = Plist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +217,16 @@
 				CDF368EB17253D6D007B2734 /* Default-568h@2x.png in Resources */,
 				CDF368F117253D6D007B2734 /* ViewController_iPhone.xib in Resources */,
 				CDF368F417253D6D007B2734 /* ViewController_iPad.xib in Resources */,
+				CDF3690317253F6A007B2734 /* 0.png in Resources */,
+				CDF3690417253F6A007B2734 /* 1.png in Resources */,
+				CDF3690517253F6A007B2734 /* 2.png in Resources */,
+				CDF3690617253F6A007B2734 /* 3.png in Resources */,
+				CDF3690717253F6A007B2734 /* 4.png in Resources */,
+				CDF3690817253F6A007B2734 /* 5.png in Resources */,
+				CDF3690917253F6A007B2734 /* 6.png in Resources */,
+				CDF3690A17253F6A007B2734 /* 7.png in Resources */,
+				CDF3690D17254333007B2734 /* PlistTimer.plist in Resources */,
+				CDF3690F17254841007B2734 /* 10.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
