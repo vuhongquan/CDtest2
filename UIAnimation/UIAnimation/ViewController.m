@@ -102,7 +102,7 @@
 {
     UIView *view = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"%d.png",index]]] autorelease];
     
-    view.frame = CGRectMake(70,80, 200, 260);
+    view.frame = CGRectMake(70,80,200,260);
     return view;
 }
 

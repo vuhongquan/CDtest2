@@ -11,9 +11,7 @@
     UIView         *labelContainerView;
     NSArray *arrayimage;
 }
-
 - (void)tileLabelsFromMinX:(CGFloat)minimumVisibleX toMaxX:(CGFloat)maximumVisibleX;
-
 @end
 
 
@@ -77,13 +75,14 @@
 #pragma mark Label Tiling
 
 - (UIImageView *)insertImage {
+    for (int i =0; i<4; i++) {
     UIImageView *image = [[[UIImageView alloc] initWithFrame:CGRectMake(0, 0,315,300)] autorelease];
-    image.image = [UIImage imageNamed:@"3.png"];
+    image.image = [UIImage imageNamed:@"1.png"];
     [labelContainerView addSubview:image];
 
     return image;
 }
-
+}
 - (CGFloat)placeNewLabelOnRight:(CGFloat)rightEdge {
     UIImageView *image = [self insertImage];
     [visibleLabels addObject:image];
